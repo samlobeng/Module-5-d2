@@ -11,7 +11,7 @@ console.log(currentFilePath)
 const currentFolderPath = dirname(currentFilePath)
 console.log(currentFolderPath)
 
-const authorsJSONPath = join(currentFolderPath, "posts.json") 
+const authorsJSONPath = join(currentFolderPath, "../data/posts.json") 
 
 // GET /authors => returns the list of authors
 authorsRouter.get("/", (req, res)=>{

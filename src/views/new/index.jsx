@@ -20,7 +20,7 @@ export default class NewBlogPost extends Component {
         <Form className="mt-5">
           <Form.Group controlId="blog-form" className="mt-3">
             <Form.Label>Title</Form.Label>
-            <Form.Control size="lg" placeholder="Title" />
+            <Form.Control className ="title" size="lg" placeholder="Title" />
           </Form.Group>
           <Form.Group controlId="blog-category" className="mt-3">
             <Form.Label>Category</Form.Label>
